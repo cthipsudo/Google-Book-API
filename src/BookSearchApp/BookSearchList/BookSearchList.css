@@ -1,0 +1,36 @@
+h3, p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+div.bookList{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book{
+    display: flex;
+    width: 100%;
+    border-bottom: solid #000 3px;
+    padding: 20px;
+}
+.book img{
+    height: auto;
+    width: 200px;
+}
+.book .bookImage{
+    margin: 50px 20px 0;
+
+}
+.book .bookSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.book .bookSection h2{
+    margin: 0;
+}
+.book .bookSection p{
+    width: 60%;
+}
